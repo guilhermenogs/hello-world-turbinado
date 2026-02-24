@@ -1,4 +1,5 @@
 nome = input("Qual é o seu nome? ")
-idade = input("Quantos anos você tem? ")
+idade = int(input("Quantos anos você tem? "))
 
-print(f"Olá, {nome}! Você tem {idade} anos.")
+print(f"\nPrazer, {nome}!")
+print(f"Você já viveu aproximadamente {idade * 365} dias.\n")
